@@ -1,60 +1,131 @@
 const products = [
     {
         "id": 1,
-        "name": "LD01 LOUNGE CHAIR",
-        "price": 200,
-        "image": "images/barf-guau-res.png",
-        "description": "Expertly rendered by Carl Hansen & Søn, the lounge chair—first introduced in 1951 and enduring ever since—is available in oak or as a combination of oak and walnut, sourced from sustainable forestry. Choose from seat and back upholstery in a selection of leather options or in a custom fabric."
-    },
+        "name": "BARF Guau! 1Kg",
+        "flavor": "Res",
+        "description": "1Kg de delicioso Alimento BARF Guau! sabor Res",
+        "price": 40,
+        "image": "assets/img/barf-guau-res.png"
+    },  
     {
         "id": 2,
-        "name": "LD02 LOUNGE CHAIR",
-        "price": 250,
-        "image": "images/2.png",
-        "description": "Expertly rendered by Carl Hansen & Søn, the lounge chair—first introduced in 1951 and enduring ever since—is available in oak or as a combination of oak and walnut, sourced from sustainable forestry. Choose from seat and back upholstery in a selection of leather options or in a custom fabric."
-    },
+        "name": "BARF Guau! 5Kg",
+        "flavor": "Res",
+        "description": "5Kg de delicioso Alimento BARF Guau! sabor Res",
+        "price": 195,
+        "image": "assets/img/barf-guau-res.png"
+    },  
     {
         "id": 3,
-        "name": "LD03 LOUNGE CHAIR",
-        "price": 290,
-        "image": "images/3.png",
-        "description": "Expertly rendered by Carl Hansen & Søn, the lounge chair—first introduced in 1951 and enduring ever since—is available in oak or as a combination of oak and walnut, sourced from sustainable forestry. Choose from seat and back upholstery in a selection of leather options or in a custom fabric."
+        "name": "BARF Guau! 10Kg",
+        "flavor": "Res",
+        "description": "10Kg de delicioso Alimento BARF Guau! sabor Res",
+        "price": 380,
+        "image": "assets/img/barf-guau-res.png"
     },
     {
         "id": 4,
-        "name": "LD04 LOUNGE CHAIR",
-        "price": 200,
-        "image": "images/4.png",
-        "description": "Expertly rendered by Carl Hansen & Søn, the lounge chair—first introduced in 1951 and enduring ever since—is available in oak or as a combination of oak and walnut, sourced from sustainable forestry. Choose from seat and back upholstery in a selection of leather options or in a custom fabric."
+        "name": "BARF Guau! 1Kg",
+        "flavor": "Pollo",
+        "description": "1Kg de delicioso Alimento BARF Guau! sabor Pollo",
+        "price": 38,
+        "image": "assets/img/barf-guau-pollo.png"
     },
     {
         "id": 5,
-        "name": "LD05 LOUNGE CHAIR",
-        "price": 300,
-        "image": "images/5.png",
-        "description": "Expertly rendered by Carl Hansen & Søn, the lounge chair—first introduced in 1951 and enduring ever since—is available in oak or as a combination of oak and walnut, sourced from sustainable forestry. Choose from seat and back upholstery in a selection of leather options or in a custom fabric."
+        "name": "BARF Guau! 5Kg",
+        "flavor": "Pollo",
+        "description": "5Kg de delicioso Alimento BARF Guau! sabor Pollo",
+        "price": 185,
+        "image": "assets/img/barf-guau-pollo.png"
     },
     {
         "id": 6,
-        "name": "LD06 LOUNGE CHAIR",
-        "price": 200,
-        "image": "images/6.png",
-        "description": "Expertly rendered by Carl Hansen & Søn, the lounge chair—first introduced in 1951 and enduring ever since—is available in oak or as a combination of oak and walnut, sourced from sustainable forestry. Choose from seat and back upholstery in a selection of leather options or in a custom fabric."
+        "name": "BARF Guau! 10Kg",
+        "flavor": "Pollo",
+        "description": "10Kg de delicioso Alimento BARF Guau! sabor Pollo",
+        "price": 360,
+        "image": "assets/img/barf-guau-pollo.png"
     },
     {
         "id": 7,
-        "name": "LD07 LOUNGE CHAIR",
-        "price": 200,
-        "image": "images/7.png",
-        "description": "Expertly rendered by Carl Hansen & Søn, the lounge chair—first introduced in 1951 and enduring ever since—is available in oak or as a combination of oak and walnut, sourced from sustainable forestry. Choose from seat and back upholstery in a selection of leather options or in a custom fabric."
+        "name": "BARF Miau! 1Kg",
+        "flavor": "Res",
+        "description": "1Kg de delicioso Alimento BARF Miau! sabor Res",
+        "price": 40,
+        "image": "assets/img/barf-miau-res.png"
     },
     {
         "id": 8,
-        "name": "LD08 LOUNGE CHAIR",
-        "price": 200,
-        "image": "images/8.png",
-        "description": "Expertly rendered by Carl Hansen & Søn, the lounge chair—first introduced in 1951 and enduring ever since—is available in oak or as a combination of oak and walnut, sourced from sustainable forestry. Choose from seat and back upholstery in a selection of leather options or in a custom fabric."
+        "name": "BARF Miau! 3Kg",
+        "flavor": "Res",
+        "description": "3Kg de delicioso Alimento BARF Miau! sabor Res",
+        "price": 115,
+        "image": "assets/img/barf-miau-res.png"
+    },
+    {
+        "id": 9,
+        "name": "BARF Miau! 5Kg",
+        "flavor": "Res",
+        "description": "5Kg de delicioso Alimento BARF Miau! sabor Res",
+        "price": 190,
+        "image": "assets/img/barf-miau-res.png"
+    },
+    {
+        "id": 10,
+        "name": "BARF Miau! 1Kg",
+        "flavor": "Pollo",
+        "description": "1Kg de delicioso Alimento BARF Miau! sabor Pollo",
+        "price": 38,
+        "image": "assets/img/barf-miau-pollo.png"
+    },
+    {
+        "id": 11,
+        "name": "BARF Miau! 3Kg",
+        "flavor": "Pollo",
+        "description": "3Kg de delicioso Alimento BARF Miau! sabor Pollo",
+        "price": 110,
+        "image": "assets/img/barf-miau-pollo.png"
+    },
+    {
+        "id": 12,
+        "name": "BARF Miau! 5Kg",
+        "flavor": "Pollo",
+        "description": "5Kg de delicioso Alimento BARF Miau! sabor Pollo",
+        "price": 180,
+        "image": "assets/img/barf-miau-pollo.png"
+    },
+    {
+        "id": 13,
+        "name": "GummyPet",
+        "flavor": "Pequeño",
+        "description": "14 porciones pequeñas de gomitas de colageno 100% naturales",
+        "price": 30,
+        "image": "assets/img/gummypetp.png"
+    },
+    {
+        "id": 14,
+        "name": "GummyPet",
+        "flavor": "Grande",
+        "description": "7 porciones grandes de gomitas de colageno 100% naturales",
+        "price": 30,
+        "image": "assets/img/gummypetg.png"
+    },
+    {
+        "id": 15,
+        "name": "GummyPet 4x3",
+        "flavor": "Pequeño",
+        "description": "56 porciones pequeñas de gomitas de colageno 100% naturales",
+        "price": 90,
+        "image": "assets/img/gummypetp.png"
+    },
+    {
+        "id": 16,
+        "name": "GummyPet 4x3",
+        "flavor": "Grande",
+        "description": "28 porciones grandes de gomitas de colageno 100% naturales",
+        "price": 90,
+        "image": "assets/img/gummypetg.png"
     }
-
 ];
 export default products;
