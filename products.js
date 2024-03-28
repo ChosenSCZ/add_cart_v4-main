@@ -5,7 +5,7 @@ const products = [
         "flavor": "Res",
         "description": "1Kg de delicioso Alimento BARF Guau! sabor Res",
         "price": 40,
-        "image": "assets/img/barf-guau-res.png"
+        "image": "images/barf-guau-res.png"
     },  
     {
         "id": 2,
@@ -13,7 +13,7 @@ const products = [
         "flavor": "Res",
         "description": "5Kg de delicioso Alimento BARF Guau! sabor Res",
         "price": 195,
-        "image": "assets/img/barf-guau-res.png"
+        "image": "images/barf-guau-res.png"
     },  
     {
         "id": 3,
@@ -21,7 +21,7 @@ const products = [
         "flavor": "Res",
         "description": "10Kg de delicioso Alimento BARF Guau! sabor Res",
         "price": 380,
-        "image": "assets/img/barf-guau-res.png"
+        "image": "images/barf-guau-res.png"
     },
     {
         "id": 4,
@@ -29,7 +29,7 @@ const products = [
         "flavor": "Pollo",
         "description": "1Kg de delicioso Alimento BARF Guau! sabor Pollo",
         "price": 38,
-        "image": "assets/img/barf-guau-pollo.png"
+        "image": "images/barf-guau-pollo.png"
     },
     {
         "id": 5,
@@ -37,7 +37,7 @@ const products = [
         "flavor": "Pollo",
         "description": "5Kg de delicioso Alimento BARF Guau! sabor Pollo",
         "price": 185,
-        "image": "assets/img/barf-guau-pollo.png"
+        "image": "images/barf-guau-pollo.png"
     },
     {
         "id": 6,
@@ -45,7 +45,7 @@ const products = [
         "flavor": "Pollo",
         "description": "10Kg de delicioso Alimento BARF Guau! sabor Pollo",
         "price": 360,
-        "image": "assets/img/barf-guau-pollo.png"
+        "image": "images/barf-guau-pollo.png"
     },
     {
         "id": 7,
@@ -53,7 +53,7 @@ const products = [
         "flavor": "Res",
         "description": "1Kg de delicioso Alimento BARF Miau! sabor Res",
         "price": 40,
-        "image": "assets/img/barf-miau-res.png"
+        "image": "images/barf-miau-res.png"
     },
     {
         "id": 8,
@@ -61,7 +61,7 @@ const products = [
         "flavor": "Res",
         "description": "3Kg de delicioso Alimento BARF Miau! sabor Res",
         "price": 115,
-        "image": "assets/img/barf-miau-res.png"
+        "image": "images/barf-miau-res.png"
     },
     {
         "id": 9,
@@ -69,7 +69,7 @@ const products = [
         "flavor": "Res",
         "description": "5Kg de delicioso Alimento BARF Miau! sabor Res",
         "price": 190,
-        "image": "assets/img/barf-miau-res.png"
+        "image": "images/barf-miau-res.png"
     },
     {
         "id": 10,
@@ -77,7 +77,7 @@ const products = [
         "flavor": "Pollo",
         "description": "1Kg de delicioso Alimento BARF Miau! sabor Pollo",
         "price": 38,
-        "image": "assets/img/barf-miau-pollo.png"
+        "image": "images/barf-miau-pollo.png"
     },
     {
         "id": 11,
@@ -85,7 +85,7 @@ const products = [
         "flavor": "Pollo",
         "description": "3Kg de delicioso Alimento BARF Miau! sabor Pollo",
         "price": 110,
-        "image": "assets/img/barf-miau-pollo.png"
+        "image": "images/barf-miau-pollo.png"
     },
     {
         "id": 12,
@@ -93,7 +93,7 @@ const products = [
         "flavor": "Pollo",
         "description": "5Kg de delicioso Alimento BARF Miau! sabor Pollo",
         "price": 180,
-        "image": "assets/img/barf-miau-pollo.png"
+        "image": "images/barf-miau-pollo.png"
     },
     {
         "id": 13,
@@ -101,7 +101,7 @@ const products = [
         "flavor": "Pequeño",
         "description": "14 porciones pequeñas de gomitas de colageno 100% naturales",
         "price": 30,
-        "image": "assets/img/gummypetp.png"
+        "image": "images/gummypetp.png"
     },
     {
         "id": 14,
@@ -109,7 +109,7 @@ const products = [
         "flavor": "Grande",
         "description": "7 porciones grandes de gomitas de colageno 100% naturales",
         "price": 30,
-        "image": "assets/img/gummypetg.png"
+        "image": "images/gummypetg.png"
     },
     {
         "id": 15,
@@ -117,7 +117,7 @@ const products = [
         "flavor": "Pequeño",
         "description": "56 porciones pequeñas de gomitas de colageno 100% naturales",
         "price": 90,
-        "image": "assets/img/gummypetp.png"
+        "image": "images/gummypetp.png"
     },
     {
         "id": 16,
@@ -125,7 +125,7 @@ const products = [
         "flavor": "Grande",
         "description": "28 porciones grandes de gomitas de colageno 100% naturales",
         "price": 90,
-        "image": "assets/img/gummypetg.png"
+        "image": "images/gummypetg.png"
     }
 ];
 export default products;
