@@ -32,8 +32,8 @@ const initApp = () => {
     let detail = document.querySelector('.detail');
     detail.querySelector('.image img').src = info.image;
     detail.querySelector('.name').innerText = info.name;
-    detail.querySelector('.price').innerText = '$' + info.price;
-    detail.querySelector('.description').innerText = '$' + info.description;
+    detail.querySelector('.price').innerText = 'Bs' + info.price;
+    detail.querySelector('.description').innerText = info.description;
     detail.querySelector('.addCart').dataset.id = idProduct;
 
 
@@ -49,10 +49,10 @@ const initApp = () => {
                 <img src="${product.image}"/>
             </a>    
             <h2>${product.name}</h2>
-            <div class="price">$${product.price}</div>
+            <div class="price">Bs${product.price}</div>
             <button class="addCart"
             data-id='${product.id}'>
-            Add To Cart
+            Agregar al Carro
             </button>
         `;
         listProduct.appendChild(newProduct);

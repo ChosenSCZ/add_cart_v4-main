@@ -34,7 +34,7 @@ const initApp = () => {
             <div class="price">$${product.price}</div>
             <button class="addCart"
             data-id='${product.id}'>
-              Add To Cart
+              Agregar al Carro
             </button>
         `;
         listProduct.appendChild(newProduct);
