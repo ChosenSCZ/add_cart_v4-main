@@ -100,12 +100,14 @@ body.activeTabCart .container{
 .listProduct .item img{
     width: 90%;
     border-radius: 50%;
-    filter: drop-shadow(0 50px 20px #0009);
+    filter: drop-shadow(0 30px 20px #0009);
+    margin-bottom: 5vh;
 }
 .listProduct{
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     gap: 20px;
+    text-align: center;
 }
 .listProduct .item{
     background-color: #EEEEE6;
@@ -132,6 +134,8 @@ body.activeTabCart .container{
 
 .listCart .item img{
     width: 100%;
+    margin-bottom: 1vh;
+    border-radius: 50%;
 }
 .listCart .item{
     display: grid;
@@ -168,10 +172,14 @@ body.activeTabCart .container{
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     gap: 50px;
-    text-align: left;
+    
 }
 .detail .image img{
-    width: 100%;
+    width: 200px;
+    border-radius: 50%;
+    text-align: center;
+    filter: drop-shadow(0 30px 20px #0009);
+
 }
 .detail .image{
     position: relative;
@@ -179,13 +187,13 @@ body.activeTabCart .container{
 .detail .image::before{
     position: absolute;
     width: 300px;
-    height: 300px;
+    height: 260px;
     content: '';
-    background-color: #94817733;
+    background-color: #e0d3cd33;
     z-index: -1;
     border-radius: 190px 100px 170px 180px;
     left: calc(50% - 150px);
-    top: 50px;
+    margin-bottom: auto;
 
 }
 .detail .name{
@@ -239,6 +247,12 @@ body.activeTabCart .container{
 }
 .detail .description{
     font-weight: 300;
+}
+.detail .title{
+    margin-top: 20vh;
+}
+.detail .content{
+    padding-bottom: 10vh;
 }
 
 /*  */
