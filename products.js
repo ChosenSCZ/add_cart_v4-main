@@ -4,7 +4,7 @@ const products = [
         "name": "BARF Guau! 1Kg",
         "flavor": "Res",
         "description": "1Kg de delicioso Alimento BARF Guau! sabor Res",
-        "price": 40,
+        "price": 38,
         "image": "images/barf-guau-res.png"
     },  
     {
@@ -12,7 +12,7 @@ const products = [
         "name": "BARF Guau! 5Kg",
         "flavor": "Res",
         "description": "5Kg de delicioso Alimento BARF Guau! sabor Res",
-        "price": 195,
+        "price": 185,
         "image": "images/barf-guau-res.png"
     },  
     {
@@ -20,7 +20,7 @@ const products = [
         "name": "BARF Guau! 10Kg",
         "flavor": "Res",
         "description": "10Kg de delicioso Alimento BARF Guau! sabor Res",
-        "price": 380,
+        "price": 360,
         "image": "images/barf-guau-res.png"
     },
     {
@@ -28,7 +28,7 @@ const products = [
         "name": "BARF Guau! 1Kg",
         "flavor": "Pollo",
         "description": "1Kg de delicioso Alimento BARF Guau! sabor Pollo",
-        "price": 38,
+        "price": 36,
         "image": "images/barf-guau-pollo.png"
     },
     {
@@ -36,7 +36,7 @@ const products = [
         "name": "BARF Guau! 5Kg",
         "flavor": "Pollo",
         "description": "5Kg de delicioso Alimento BARF Guau! sabor Pollo",
-        "price": 185,
+        "price": 175,
         "image": "images/barf-guau-pollo.png"
     },
     {
@@ -44,7 +44,7 @@ const products = [
         "name": "BARF Guau! 10Kg",
         "flavor": "Pollo",
         "description": "10Kg de delicioso Alimento BARF Guau! sabor Pollo",
-        "price": 360,
+        "price": 340,
         "image": "images/barf-guau-pollo.png"
     },
     {
@@ -60,7 +60,7 @@ const products = [
         "name": "BARF Miau! 3Kg",
         "flavor": "Res",
         "description": "3Kg de delicioso Alimento BARF Miau! sabor Res",
-        "price": 115,
+        "price": 117,
         "image": "images/barf-miau-res.png"
     },
     {
