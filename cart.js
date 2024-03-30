@@ -6,6 +6,7 @@ const cart = () => {
     let iconCartSpan = iconCart.querySelector('span');
     let body = document.querySelector('body');
     let closeCart = document.querySelector('.close');
+    let checkOutBtn = document.querySelector('.checkOut');
     let cart = [];
 
     // open and close tab
@@ -15,6 +16,9 @@ const cart = () => {
     })
     closeBtn.addEventListener('click', () => {
         body.classList.toggle('activeTabCart');
+    })
+    checkOutBtn.addEventListener('click',() => {
+        href="https://chosenscz.github.io/VitalPetWeb/compra.html";
     })
 
     const setProductInCart = (idProduct, quantity, position) => {
