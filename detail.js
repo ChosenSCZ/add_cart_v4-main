@@ -45,7 +45,7 @@ const initApp = () => {
         newProduct.classList.add('item');
         newProduct.innerHTML = 
         `
-            <a href="/detail.html?id=${product.id}">
+            <a href="https://chosenscz.github.io/add_cart_v4-main/detail.html?id=${product.id}">
                 <img src="${product.image}"/>
             </a>    
             <h2>${product.name}</h2>
