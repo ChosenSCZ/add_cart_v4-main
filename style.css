@@ -97,6 +97,8 @@ body.activeTabCart .container{
 }
 /*  */
 
+/*  */
+
 .listProduct .item img{
     width: 90%;
     border-radius: 50%;
@@ -315,14 +317,14 @@ body.activeTabCart .container{
 
 
 }
-.returnCart h1{
+.cartTab2 h1{
     border-top: 1px solid #eee;  
     padding: 20px 0;
 }
-.returnCart .list .item img{
+.cartTab2 .list .item img{
     height: 80px;
 }
-.returnCart .list .item{
+.cartTab2 .list .item{
     display: grid;
     grid-template-columns: 80px 1fr  50px 80px;
     align-items: center;
@@ -332,8 +334,8 @@ body.activeTabCart .container{
     box-shadow: 0 10px 20px #5555;
     border-radius: 20px;
 }
-.returnCart .list .item .name,
-.returnCart .list .item .returnPrice{
+.cartTab2 .list .item .name,
+.cartTab2 .list .item .returnPrice{
     font-size: large;
     font-weight: bold;
 }
