@@ -82,4 +82,4 @@ const cart = () => {
     }
 initApp();
 }
-export default cart;
+export default checkout;
