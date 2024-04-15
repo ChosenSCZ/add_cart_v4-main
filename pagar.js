@@ -5,7 +5,7 @@ let temporaryContent = document.getElementById('temporaryContent');
 
 // load layout file
 const loadTemplate = () => {
-    fetch('template.html')
+    fetch('checkout.html')
     .then(response => response.text())
     .then(html => {
         app.innerHTML = html;
