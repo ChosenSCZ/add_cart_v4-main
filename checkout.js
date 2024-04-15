@@ -10,12 +10,6 @@ const cart = () => {
 
     // open and close tab
     //
-    iconCart.addEventListener('click', () => {
-        body.classList.toggle('activeTabCart');
-    })
-    closeBtn.addEventListener('click', () => {
-        body.classList.toggle('activeTabCart');
-    })
     
     const setProductInCart = (idProduct, quantity, position) => {
         if(quantity > 0){
