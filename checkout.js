@@ -1,3 +1,4 @@
+import cart from "./cart.js";
 import products from './products.js';
 const cart = () => {
     let listCartHTML = document.querySelector('.listCart');
