@@ -53,7 +53,7 @@ header{
     width: 400px;
     max-width: 100%;
     position: fixed;
-    
+    top: 0;
     left: 0;
     bottom: 0;
     display: grid;
@@ -308,7 +308,7 @@ body.activeTabCart .right .return .row div:nth-child(2){
     height: 40px;
     border: none;
     border-radius: 20px;
-    background-color: #49D8B9;
+    background-color: red;
     margin-top: 20px;
     font-weight: bold;
     color: #fff;
