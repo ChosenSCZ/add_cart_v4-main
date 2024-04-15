@@ -84,7 +84,7 @@ const products = [
         "name": "BARF Miau! 3Kg",
         "flavor": "Pollo",
         "description": "3Kg de delicioso Alimento BARF Miau! sabor Pollo",
-        "price": 110,
+        "price": 111,
         "image": "images/barf-miau-pollo.png"
     },
     {
